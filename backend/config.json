@@ -1,0 +1,44 @@
+{   
+    "position" : [0,0,0],
+    "orientation" : 0,
+    "dimensions": {
+      "base": [3000, 1000, 3000],
+      "lift": [1000, 15000, 1000],
+      "upperArm": [10000, 1000, 1000],
+      "lowerArm": [10000, 1000, 1000],
+      "palm": [5000, 1000, 1000],
+      "leftFinger": [500, 4000, 500],
+      "rightFinger": [500, 4000, 500]
+    },
+
+    "dynamicState": {
+      "base": 0,
+      "lift": 6000,
+      "elbow": 0,
+      "wrist": 0,
+      "gripper": 2000
+    },
+
+    "actuationSpeedAndAccelerationLimits" : {
+            "base" : {
+                "speed" : 10,
+                "acceleration" : 10
+            },
+            "lift" : {
+                "speed" : 10,
+                "acceleration" : 10
+            },
+            "elbow" : {
+                "speed" : 10,
+                "acceleration" : 10
+            },
+            "wrist" : {
+                "speed" : 10,
+                "acceleration" : 10
+            },
+            "gripper" : {
+                "speed" : 10,
+                "acceleration" : 10
+            }
+        }
+}

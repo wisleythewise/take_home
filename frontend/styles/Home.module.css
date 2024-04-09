@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  height: 100vh; /* Prevent the container from exceeding the viewport height */
+  margin: 0; /* Reset any default margins */
+  padding: 0; /* Reset any default padding */
+  overflow: hidden; /* Hide any overflow */
+}
+
+.sidebar {
+  width: 25%; /* Or however wide you want your sidebar to be */
+  height: 100%; /* Full height of the container */
+  background-color: #f0f0f0; /* Or any color */
+  color: black;
+  padding: 1rem;
+  box-sizing: border-box; /* Include padding in the element's total width and height */
+}
+
+.canvasContainer {
+  width: 75%; /* Remainder of the space */
+  height: 100%; /* Full height of the container */
+  position: relative; /* To contain the absolute positioned canvas */
+}
+
+.canvas {
+  width: 100%; /* Full width of the canvasContainer */
+  height: 100%; /* Full height of the canvasContainer */
+  display: block; /* Removes bottom margin/whitespace */
+}
+
+.controlsBanner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: lightblue;
+    color: black;
+    border-radius: 5px;
+}

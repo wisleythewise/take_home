@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "@types/node": "^20.12.2",
+    "@types/react": "^18.2.73",
+    "@types/three": "^0.163.0",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "three": "^0.163.0"
+  }
+}
